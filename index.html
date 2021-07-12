@@ -24,7 +24,7 @@
 
 <body>
 
-
+    <div id="preloder"></div>
     <header id="header">
         <section class="banner">
             <img src="images/logo.png" class="logo" alt="">
@@ -307,6 +307,17 @@
             }
 
         }
+
+
+        // preloder Js
+
+        let loder = document.getElementById("preloder");
+
+        window.addEventListener("load", function () {
+
+            loder.style.display = "none";
+
+        })
 
     </script>
 
